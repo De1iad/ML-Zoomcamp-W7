@@ -1,0 +1,18 @@
+1. 1.0.7
+
+2. 115kb
+
+3.
+from pydantic import BaseModel
+
+class UserProfile(BaseModel):
+	name: str
+	age: int
+	country: str
+	rating: float
+
+4. 1.1.1
+
+5. 1
+
+6. second model
